@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4053394752040761864}
   m_Layer: 0
-  m_Name: SkelePatrol1 1
+  m_Name: SkelePatrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,9 +109,9 @@ GameObject:
   - component: {fileID: 8834093794358388247}
   - component: {fileID: 7650913895416903285}
   - component: {fileID: 8785287428059962443}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Skeleton
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,8 +167,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1199961199
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 4723107735738678597, guid: 1018b0ba13578bf459bd254ae1a2be99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  anim: {fileID: 0}
+  anim: {fileID: 8785287428059962443}
   bc: {fileID: 3791028040668224319}
 --- !u!114 &94121800531102656
 MonoBehaviour:

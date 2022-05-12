@@ -125,7 +125,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 3
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 42787b61184ce714a9676ee4d6f4e46a, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -168,6 +168,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 311bdcbbbf1ca0e4b87c511bcfdb972a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walk:
+  - {fileID: 8300000, guid: 77b2e11378574a44996506872f6de079, type: 3}
+  - {fileID: 8300000, guid: 4264c3bf953182c4f8026f76af3023b5, type: 3}
+  - {fileID: 8300000, guid: 9260124019c67e24d9a7cb495613f1f0, type: 3}
+  - {fileID: 8300000, guid: 30c5e4e61de45be40a4bec4fabe0ed1c, type: 3}
+  - {fileID: 8300000, guid: 06268ada85df718459cae5106cf9ddba, type: 3}
   pHealth: {fileID: 890321227730783326}
   isFlipped: 0
   ground:
@@ -206,6 +212,29 @@ MonoBehaviour:
     m_Bits: 128
   attackRange: 0.5
   Player: {fileID: 890321227730783301}
+  swordSound: {fileID: 8300000, guid: 50bb29115267a1b49b892e286b5afeac, type: 3}
+  hurtSounds:
+  - {fileID: 8300000, guid: d7ce483e95fd1f548ba797a15277c5fd, type: 3}
+  - {fileID: 8300000, guid: 36a686833fb16514495c20cd2560129b, type: 3}
+  - {fileID: 8300000, guid: 5336958ffbb514d40a6f4fc1a0a64283, type: 3}
+  - {fileID: 8300000, guid: b0044b36c86747849ab3ba22c56f4dfa, type: 3}
+  - {fileID: 8300000, guid: f1412b64fd0825046a0ebb105676ba86, type: 3}
+  - {fileID: 8300000, guid: 43cb77d7214aa10409e0b50b44410fe7, type: 3}
+  - {fileID: 8300000, guid: b550e22b4434f5b468c82771484ec8f5, type: 3}
+  - {fileID: 8300000, guid: dcaed4efa818e2e48b1aec32971d9cd2, type: 3}
+  - {fileID: 8300000, guid: 62e3ae54d2a91154a81ee797928f8549, type: 3}
+  - {fileID: 8300000, guid: 3d74e4227b7a76542861f3d248a17353, type: 3}
+  deathSounds:
+  - {fileID: 8300000, guid: 8dc8590e74368dc44a83041961817fac, type: 3}
+  - {fileID: 8300000, guid: 606ff5e66e942dc42b5938608aedd3e9, type: 3}
+  - {fileID: 8300000, guid: 567ed2d22f48c484e96f28deac65268b, type: 3}
+  - {fileID: 8300000, guid: c64fb1eb9d8fd254d85a632cad31a2d6, type: 3}
+  - {fileID: 8300000, guid: 6ccde2592fa765a44b798f90d68979c9, type: 3}
+  - {fileID: 8300000, guid: 12d9fb3595a50174385813e2ae64e0cf, type: 3}
+  - {fileID: 8300000, guid: 27d4b382b3b01b74098bcd3fa623a7d9, type: 3}
+  - {fileID: 8300000, guid: 8a0387b7bd288ba42a93e08d81ab6551, type: 3}
+  - {fileID: 8300000, guid: b307e5bab88a96241a8eb2b64b3683e4, type: 3}
+  - {fileID: 8300000, guid: db90760531cd14e4bb9efefe238c30d1, type: 3}
   sprite: {fileID: 890321227730783303}
   playerAttack: 20
   attackRate: 3

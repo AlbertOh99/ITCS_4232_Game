@@ -21,11 +21,11 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: -6717884257390833292, guid: f296174d37bb31841bccf9b56d811f9d, type: 3}
-    - time: 0.375
+    - time: 0.5
       value: {fileID: -7947067082740497745, guid: f296174d37bb31841bccf9b56d811f9d, type: 3}
-    - time: 0.625
-      value: {fileID: -4098029715399502762, guid: f296174d37bb31841bccf9b56d811f9d, type: 3}
     - time: 1
+      value: {fileID: -4098029715399502762, guid: f296174d37bb31841bccf9b56d811f9d, type: 3}
+    - time: 1.5
       value: {fileID: -407368442477547055, guid: f296174d37bb31841bccf9b56d811f9d, type: 3}
     attribute: m_Sprite
     path: 
@@ -55,7 +55,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.125
+    m_StopTime: 1.625
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -76,14 +76,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: invernerable
+    functionName: invulnerable
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1
-    functionName: invernerable
+  - time: 1.5
+    functionName: vulnerable
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

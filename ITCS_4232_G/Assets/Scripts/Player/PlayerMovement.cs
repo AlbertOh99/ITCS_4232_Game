@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("WalkSounds")]
+    [SerializeField] private AudioClip[] walk;
+
     // Start is called before the first frame update
     private Rigidbody2D rb;
     private BoxCollider2D coll;
@@ -11,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     [SerializeField] private PlayerHealth pHealth;
     public bool isFlipped;
-
+    private bool move;
     [SerializeField] private LayerMask ground;
 
     [SerializeField] float jumpHeight = 14f;
@@ -25,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         animState = GetComponent<Animator>();
         coll = GetComponent<BoxCollider2D>();
+        move = true;
     }
 
     // Update is called once per frame
@@ -34,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
+        if (move == false) return;
+        
         dirX = Input.GetAxisRaw("Horizontal"); //left = -1, right = 1
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
@@ -78,5 +84,22 @@ public class PlayerMovement : MonoBehaviour
     private bool grounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, ground);
+    }
+
+    public void walkSound()
+    {
+        int rand = Random.Range(0, 5);
+        AudioManager.instance.play(walk[rand]);
+    }
+
+
+    private void stopMove()
+    {
+        move = false;
+    }
+
+    private void letMove()
+    {
+        move = true;
     }
 }

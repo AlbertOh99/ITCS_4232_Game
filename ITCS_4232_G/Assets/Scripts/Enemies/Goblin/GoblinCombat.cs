@@ -15,7 +15,10 @@ public class GoblinCombat : MonoBehaviour
     [SerializeField] private LayerMask layerPlayer;
     [SerializeField] private PlayerHealth pHealth;
     private SpriteRenderer sprite;
-    
+
+    [Header("Dagger Swing")]
+    [SerializeField] private AudioClip daggerSound;
+
     private float cooldownTimer = Mathf.Infinity;
 
     private Animator anim;
@@ -81,5 +84,8 @@ public class GoblinCombat : MonoBehaviour
         }
     }
 
-
+    public void playDaggerSound()
+    {
+        AudioManager.instance.play(daggerSound);
+    }
 }

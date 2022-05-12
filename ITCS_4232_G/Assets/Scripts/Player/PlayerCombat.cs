@@ -11,7 +11,15 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] LayerMask enemy;
     [SerializeField] float attackRange = 0.5f;
     [SerializeField] GameObject Player;
-    
+    [Header("Sword Sound")]
+    [SerializeField] private AudioClip swordSound;
+
+    [Header("Hurt Sounds")]
+    [SerializeField] private AudioClip[] hurtSounds;
+
+    [Header("Death Sounds")]
+    [SerializeField] private AudioClip[] deathSounds;
+
     [SerializeField] SpriteRenderer sprite;
     public int playerAttack = 20;
     float attackTimer = 0f;
@@ -25,6 +33,13 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         if(Time.time >= attackTimer && attack.GetInteger("state") == 0) 
+        {
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                Attack();
+                attackTimer = Time.time + 1f / attackRate;
+            }
+        } else if (Time.time >= attackTimer && attack.GetInteger("state") == 1)
         {
             if (Input.GetKeyDown(KeyCode.Z))
             {
@@ -60,7 +75,22 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    public void playSwordSound()
+    {
+        AudioManager.instance.play(swordSound);
+    }
 
+    public void playHurtSound()
+    {
+        int rand = Random.Range(0, 10);
+        AudioManager.instance.play(hurtSounds[rand]);
+    }
+
+    public void playDeathSound()
+    {
+        int rand = Random.Range(0, 10);
+        AudioManager.instance.play(deathSounds[rand]);
+    }
     private void OnDrawGizmosSelected()
     {
         if (attackBox == null)

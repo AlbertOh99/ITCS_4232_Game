@@ -40,7 +40,7 @@ public class EnemyDamage : MonoBehaviour
         Destroy(bc.gameObject, 1f);
     }
 
-    private void invernerable()
+    private void invulnerable()
     {
         if (invul == true)
         {
@@ -50,6 +50,11 @@ public class EnemyDamage : MonoBehaviour
         {
             invul = true;
         }
+    }
+
+    private void vulnerable()
+    {
+        invul = false;
     }
     private void disableShield()
     {
