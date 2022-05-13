@@ -9,6 +9,8 @@ public class Magic : MonoBehaviour
     [SerializeField] PlayerHealth pHealth;
     [SerializeField] private float magicDamage;
     [SerializeField] public Animator anim;
+
+    [SerializeField] private AudioClip lightning;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +27,14 @@ public class Magic : MonoBehaviour
     public void onEnable()
     {
         visible.enabled = true;
+    }
+    public void enableHitBox()
+    {
         hitbox.enabled = true;
+    }
+    public void disableHitBox()
+    {
+        hitbox.enabled = false;
     }
 
     private void Triggers()
@@ -35,7 +44,10 @@ public class Magic : MonoBehaviour
 
 
 
-
+    public void playLIghtningSound()
+    {
+        AudioManager.instance.play(lightning);
+    }
 
     private void Update()
     {

@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 60e38ec71f1bc9b43b236584721cd3f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5449152835974134679
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_0
+  - first:
+      213: 491436207619579129
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_1
+  - first:
+      213: 7386230781224608826
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_2
+  - first:
+      213: -4337531137759371684
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_3
+  - first:
+      213: -6873566131318032447
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_4
+  - first:
+      213: 9065714433205694092
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_5
+  - first:
+      213: 8088271566096287060
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_6
+  - first:
+      213: 6922288476266286348
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_7
+  - first:
+      213: -1400701596035470713
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_8
+  - first:
+      213: 7513969197571581147
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_9
+  - first:
+      213: -1843795951002588223
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_10
+  - first:
+      213: 7570824355354960165
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_11
+  - first:
+      213: -4559351173435077999
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_12
+  - first:
+      213: -5675254723239973340
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_13
+  - first:
+      213: -6718157288082099914
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_14
+  - first:
+      213: -5044458099226879318
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_15
+  - first:
+      213: 3972303234541811895
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_16
+  - first:
+      213: -580587935593151827
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_17
+  - first:
+      213: -2999260079408433062
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_18
+  - first:
+      213: 3868018062435960480
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_19
+  - first:
+      213: -7879290148006827769
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_20
+  - first:
+      213: 2768936270554657351
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_21
+  - first:
+      213: -1321225966102765013
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_22
+  - first:
+      213: 1430730918436395288
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_23
+  - first:
+      213: -5975563039509271601
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_24
+  - first:
+      213: 527513411383362143
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_25
+  - first:
+      213: -2313637515527377416
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_26
+  - first:
+      213: -8269087803597517750
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_27
+  - first:
+      213: 7737716040487853115
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_28
+  - first:
+      213: 8580993754318236896
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_29
+  - first:
+      213: -3824766292452954642
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_30
+  - first:
+      213: 8518399007820261656
+    second: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bfc0b22a74f9b40800000000000000
+      internalID: 5449152835974134679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc1ee880aee1d600800000000000000
+      internalID: 491436207619579129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34e2f7f2c9218660800000000000000
+      internalID: 7386230781224608826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e18a3596efdc3c0800000000000000
+      internalID: -4337531137759371684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f1a275003c90a0800000000000000
+      internalID: -6873566131318032447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e6b5aae33efcd70800000000000000
+      internalID: 9065714433205694092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455cf08c2205f3070800000000000000
+      internalID: 8088271566096287060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dc1ac71b8e01060800000000000000
+      internalID: 6922288476266286348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aabf3d155bf8ce0800000000000000
+      internalID: -1400701596035470713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd42b7aac2bf64860800000000000000
+      internalID: 7513969197571581147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbef26f9558966e0800000000000000
+      internalID: -1843795951002588223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521eec5a3a8f01960800000000000000
+      internalID: 7570824355354960165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a4425a34ee9b0c0800000000000000
+      internalID: -4559351173435077999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e6c63e5e17d31b0800000000000000
+      internalID: -5675254723239973340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6313aa27a8f44c2a0800000000000000
+      internalID: -6718157288082099914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa5d3fd51c7ef9b0800000000000000
+      internalID: -5044458099226879318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8fff2eeb4702730800000000000000
+      internalID: 3972303234541811895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2c712495651f7f0800000000000000
+      internalID: -580587935593151827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58b9d939dc7066d0800000000000000
+      internalID: -2999260079408433062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a64a442fe5fda530800000000000000
+      internalID: 3868018062435960480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70961dd4b5327a290800000000000000
+      internalID: -7879290148006827769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742fa1c1edc3d6620800000000000000
+      internalID: 2768936270554657351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b222c66ebff0aade0800000000000000
+      internalID: -1321225966102765013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819d192a03afad310800000000000000
+      internalID: 1430730918436395288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba8115319821da0800000000000000
+      internalID: -5975563039509271601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5282cb17aa125700800000000000000
+      internalID: 527513411383362143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd29f310fe44efd0800000000000000
+      internalID: -2313637515527377416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c0e02447c4e3d80800000000000000
+      internalID: -8269087803597517750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cde1e1eb3e16b60800000000000000
+      internalID: 7737716040487853115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecebf10b50d51770800000000000000
+      internalID: 8580993754318236896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed247d4253bbeac0800000000000000
+      internalID: -3824766292452954642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILESET_MOON_CAVE_BY_ CUBIC TREE - GRAPHICS_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819aa24e3ce673670800000000000000
+      internalID: 8518399007820261656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] public float maxPlayerHP;
-    public float currPlayerHP { get; private set; }
+    public float currPlayerHP;
     private Animator anim;
     private Rigidbody2D rb;
 

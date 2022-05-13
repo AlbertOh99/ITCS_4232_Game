@@ -8,10 +8,12 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] int maxHealth = 100;
     [SerializeField] Animator anim;
     [SerializeField] BoxCollider2D bc;
+    [SerializeField] AudioClip hurt;
 
     private bool invul = false;
     private int currHealth;
     private Rigidbody2D rb;
+
     void Start()
     {
         currHealth = maxHealth;
@@ -24,6 +26,7 @@ public class EnemyDamage : MonoBehaviour
         if (invul == true) return;
 
         currHealth -= damage;
+        AudioManager.instance.play(hurt);
         anim.SetTrigger("Hit");
         if(currHealth <= 0)
         {

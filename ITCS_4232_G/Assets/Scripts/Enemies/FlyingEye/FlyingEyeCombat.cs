@@ -18,6 +18,9 @@ public class FlyingEyeCombat : MonoBehaviour
 
     [SerializeField] private Transform dashPos;
 
+    [Header("Flying Eye Bite")]
+    [SerializeField] private AudioClip biteSound;
+
     private float cooldownTimer = Mathf.Infinity;
 
     private Animator anim;
@@ -91,5 +94,11 @@ public class FlyingEyeCombat : MonoBehaviour
         {
             pHealth.playerDamaged(damage);
         }
+    }
+
+
+    public void playBiteSound()
+    {
+        AudioManager.instance.play(biteSound);
     }
 }

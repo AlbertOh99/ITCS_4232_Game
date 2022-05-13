@@ -58,6 +58,7 @@ public class Boss : MonoBehaviour
             }
         } else 
         {
+            
             animState.SetTrigger("magic");
             if(magicCounter >= 2)
             {
@@ -74,6 +75,7 @@ public class Boss : MonoBehaviour
 
     public void enableMagic()
     {
+        locatePlayer();
         magics.onEnable();
         magics.anim.SetTrigger("magicAttack");
     }

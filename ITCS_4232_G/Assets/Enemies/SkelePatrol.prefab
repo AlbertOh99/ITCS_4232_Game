@@ -222,6 +222,7 @@ MonoBehaviour:
   maxHealth: 100
   anim: {fileID: 8785287428059962443}
   bc: {fileID: 3791028040668224319}
+  hurt: {fileID: 0}
 --- !u!114 &94121800531102656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +244,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   pHealth: {fileID: 0}
+  skeleSwordSound1: {fileID: 8300000, guid: a1bc5ffb116d5144c84b50c1b5d0b633, type: 3}
+  skeleSwordSound2: {fileID: 8300000, guid: 68a979c1ebfe7004d97903609b2b11ee, type: 3}
 --- !u!114 &8834093794358388247
 MonoBehaviour:
   m_ObjectHideFlags: 0

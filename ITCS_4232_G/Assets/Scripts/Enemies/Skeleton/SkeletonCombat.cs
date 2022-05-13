@@ -16,6 +16,10 @@ public class SkeletonCombat : MonoBehaviour
     [SerializeField] private PlayerHealth pHealth;
     private SpriteRenderer sprite;
 
+    [Header("Skele Swing")]
+    [SerializeField] private AudioClip skeleSwordSound1;
+    [SerializeField] private AudioClip skeleSwordSound2;
+
     private float cooldownTimer = Mathf.Infinity;
 
     private Animator anim;
@@ -89,6 +93,16 @@ public class SkeletonCombat : MonoBehaviour
     private void shield()
     {
         anim.SetTrigger("Shield");
+    }
+
+    public void playSwordSound1()
+    {
+        AudioManager.instance.play(skeleSwordSound1);
+    }
+
+    public void playSwordSound2()
+    {
+        AudioManager.instance.play(skeleSwordSound2);
     }
 
 

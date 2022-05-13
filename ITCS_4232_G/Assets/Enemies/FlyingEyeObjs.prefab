@@ -190,6 +190,7 @@ MonoBehaviour:
     m_Bits: 256
   pHealth: {fileID: 0}
   dashPos: {fileID: 3711507115402183345}
+  biteSound: {fileID: 8300000, guid: 45c63cf0c41de2b41972d62789beabe5, type: 3}
 --- !u!114 &3711507116429495221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +227,7 @@ MonoBehaviour:
   maxHealth: 40
   anim: {fileID: 3711507116429495219}
   bc: {fileID: 3711507116429495223}
+  hurt: {fileID: 8300000, guid: b25732852859bab47955059e18f4ca45, type: 3}
 --- !u!61 &3711507116429495223
 BoxCollider2D:
   m_ObjectHideFlags: 0
